@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Login Page</title>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+    <!-- Login Box -->
+    <div class="bg-white px-12 py-10 rounded-lg shadow-md w-100">
+
+        
+        <div class="flex items-center mb-4">
+            
+            <img src="logo.png" alt="Company Logo" class="h-8 mr-2">
+            <h2 class="text-xl font-semibold">Company Name</h2>
+        </div>
+
+        
+        <p class="text-center mb-4">Login to continue</p>
+
+        
+        <label class="block mb-1 text-xs">Email ID</label>
+        <input type="email" placeholder="Enter Email ID" class="w-full p-2 mb-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300">
+
+        <label class="block mb-1 text-xs">Password</label>
+        <div class="relative mb-3">
+            <input type="password" placeholder="Enter Password" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300">
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2">
+                
+                <svg class="w-5 h-5 text-gray-500 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    
+                </svg>
+            </div>
+        </div>
+
+        
+        <a href="#" class="block text-sm text-center text-blue-500 mb-4">I forgot my password</a>
+
+        
+        <button class="w-full text-sm bg-purple-900 text-white py-2 rounded-md mb-4">Login</button>
+
+        
+        <p class="text-center text-sm mb-4">Or continue with</p>
+
+        
+        <button class="w-full bg-white text-gray-500 py-2 rounded-md mb-2 flex items-center justify-center text-sm border border-gray-300 md:border-2">
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png" alt="Google Logo" class="w-5 h-5 mr-2">
+            Sign in with Google
+        </button>
+
+        <button class="w-full bg-white text-gray-500 py-2 rounded-md flex items-center justify-center text-sm border border-gray-300 md:border-2">
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Microsoft_icon.svg/2048px-Microsoft_icon.svg.png" alt="Microsoft Logo" class="w-5 h-5 mr-2">
+            Sign in with Microsoft
+        </button>
+
+        
+        <hr class="my-4 border-t border-gray-300">
+
+        
+        <p class="text-center text-sm">
+            Don't have an account? <a href="#" class="text-blue-500">Sign up here</a>
+        </p>
+    </div>
+
+</body>
+</html>
